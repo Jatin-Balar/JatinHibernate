@@ -16,6 +16,8 @@ public class App
        Configuration con = new Configuration().configure().addAnnotatedClass(Stu.class).addAnnotatedClass(Lap.class);
        SessionFactory sf = con.buildSessionFactory();
        Session session = sf.openSession();
+       Lap ll1 = 
+		new Lap();
        Lap l1 = 
        		new Lap();
        l1.setlId(107);
