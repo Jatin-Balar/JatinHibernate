@@ -18,6 +18,8 @@ public class App
        Session session = sf.openSession();
        Lap ll1 = 
 		new Lap();
+	Lap ll2 = 
+		new Lap();
        Lap l1 = 
        		new Lap();
        l1.setlId(107);
